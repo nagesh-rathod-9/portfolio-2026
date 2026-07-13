@@ -1,0 +1,33 @@
+/* Remove default browser margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #05070d;
+  overflow-x: hidden;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 0;
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Custom Scrollbar styling to match your dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #e94560;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c73851;
+}
