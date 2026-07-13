@@ -7,6 +7,14 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+import rudrakshLogo from "../assets/projects/rudraksh.png";
+import snjoshiLogo from "../assets/projects/snjoshi.png";
+import aquasoftLogo from "../assets/projects/aquasoft.png";
+import kirloskarLogo from "../assets/projects/kirloskar.png";
+import haierLogo from "../assets/projects/hair.png";
+import hrmsLogo from "../assets/projects/hrms.png";
+import techprimelabLogo from "../assets/projects/techprimelab.png";
+import toyoLogo from "../assets/projects/toyo.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -16,7 +24,7 @@ const BODY_FONT = "'Inter', sans-serif";
 const PROJECTS = [
   {
     name: "Rudraksh.kar",
-    logo: "src\\assets\\projects\\rudraksh.png",
+    logo: rudrakshLogo,
     category: "Portfolio Website",
     tagline: "A portfolio built around a photographer's eye for detail.",
     description:
@@ -32,7 +40,7 @@ const PROJECTS = [
   },
   {
     name: "SN Joshi Consultants",
-    logo: "src\\assets\\projects\\snjoshi.png",
+    logo: snjoshiLogo,
     category: "Web Application",
     tagline: "A calculation engine built for consulting engineers.",
     description:
@@ -48,7 +56,7 @@ const PROJECTS = [
   },
   {
     name: "Aquasoft",
-    logo: "src\\assets\\projects\\aquasoft.png",
+    logo: aquasoftLogo,
     category: "Web & Mobile Application",
     tagline: "AMC lifecycle management for filtration & water plants.",
     description:
@@ -65,7 +73,7 @@ const PROJECTS = [
   },
   {
     name: "KirloSmart",
-    logo: "src\\assets\\projects\\kirloskar.png",
+    logo: kirloskarLogo,
     category: "IoT Platform — Web & App",
     tagline: "IoT-based remote monitoring for pumps & motors.",
     description:
@@ -84,7 +92,7 @@ const PROJECTS = [
   },
   {
     name: "Haier",
-    logo: "src\\assets\\projects\\hair.png",
+    logo: haierLogo,
     category: "Internal Workflow Tool",
     tagline: "From idea to approval, in one structured flow.",
     description:
@@ -100,7 +108,7 @@ const PROJECTS = [
   },
   {
     name: "HRMS — Techprimelab",
-    logo: "src\\assets\\projects\\hrms.png",
+    logo: hrmsLogo,
     category: "Internal Product",
     tagline: "The company's own system for CRM and daily operations.",
     description:
@@ -116,7 +124,7 @@ const PROJECTS = [
   },
   {
     name: "Techprimelab LMS",
-    logo: "src\\assets\\projects\\techprimelab.png",
+    logo: techprimelabLogo,
     category: "Internal Product",
     tagline: "Leave management, from application to email approval.",
     description:
@@ -132,7 +140,7 @@ const PROJECTS = [
   },
   {
     name: "Toyo Engineering",
-    logo: "src\\assets\\projects\\toyo.png",
+    logo: toyoLogo,
     category: "Enterprise Integration",
     tagline: "Closing the loop between Revit and STAAD teams.",
     description:
