@@ -1,0 +1,9 @@
+{
+  "appId": "com.nageshrathod.portfolio",
+  "appName": "Nagesh Rathod Portfolio",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
